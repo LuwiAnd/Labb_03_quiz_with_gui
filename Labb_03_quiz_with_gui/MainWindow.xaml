@@ -24,7 +24,7 @@
                 Content="{Binding Path=ActivePack.Name}"
                 Margin="10"
                 />-->
-        <!--<view:PlayerView Grid.Row="1" />-->
-        <view:ConfigurationView Grid.Row="1"/>
+        <view:PlayerView Grid.Row="1" />
+        <!--<view:ConfigurationView Grid.Row="1"/>-->
     </Grid>
 </Window>

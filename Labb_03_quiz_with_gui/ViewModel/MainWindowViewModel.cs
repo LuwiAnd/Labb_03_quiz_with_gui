@@ -25,6 +25,8 @@ namespace Labb_03_quiz_with_gui.ViewModel
 			{
 				_activePack = value;
 				RaisePropertyChanged();
+
+				ConfigurationViewModel.RaisePropertyChanged("ActivePack"); // För att det inte finns en set-funktion för denna Property.
 			}
 		}
 

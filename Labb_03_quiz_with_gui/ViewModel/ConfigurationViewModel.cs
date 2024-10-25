@@ -15,5 +15,7 @@ namespace Labb_03_quiz_with_gui.ViewModel
         {
             this.mainWindowViewModel = mainWindowViewModel;
         }
+
+        public QuestionPackViewModel? ActivePack { get => mainWindowViewModel.ActivePack; }
     }
 }
